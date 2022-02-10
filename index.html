@@ -1,60 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Personal Portfolio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Personal Portfolio</title>
+    <meta property="og:title" content="Andy Deng" />
+    <meta property="og:type" content="Personal Portfolio" />
+    <meta property="og:image" content="me and my mom.jpg" />
+    <meta property="og:url" content="http://127.0.0.1:5500/index.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
-    <nav class="sections">
-      <ul>
-        <li><a href="#about">about</a></li>
-        <li><a href="#news">news</a></li>
-        <li><a href="#projects">projects</a></li>
-      </ul>
-    </nav>
-
-    <section id="about">
-      <h1>Andy Deng</h1>
-      <div class="image">
-        <img src="me.jpg" alt="picture of me" width="240" height="400" />
-      </div>
-      <div>
-        <br />
-        <div class="occupation"><b>CS Student @ Boston College</b></div>
-        <div class="email">denga@bc.edu</div>
-        <div class="address">Walsh 217-B</div>
-        <nav class="links">
-          <a href="https://github.com/1Dengaroo" target="_blank">Github</a>
-        </nav>
-        <p>
-          Andy Deng is a current Sophomore at Boston College studying Computer
-          Science and Finance. His hobbies include running, cooking,
-          photography, and gaming. His favorite food is french fries, and his
-          favorite animal is a panda. He hopes to one day work for top company
-          and make a lot of money 💵.
-        </p>
-      </div>
-    </section>
-    <section id="news">
-      <h1>News</h1>
-      <ul>
-        <li>Traveled to China <br />July 10, 2018</li>
-        <li>Graduated from high school<br />July 25, 2020</li>
+    <nav>
+      <ul class="sections">
+        <li><a class="link--animation" href="#about">About</a></li>
+        <li><a class="link--animation" href="#news">News</a></li>
         <li>
-          Began a course on web application development<br />
-          January 11, 2021
+          <a class="link--animation" href="#projects">Projects</a>
         </li>
       </ul>
-    </section>
-    <section id="projects">
-      <h1>Projects</h1>
-      <ul>
-        <li><a href="panda.html">Panda Project</a></li>
-      </ul>
-    </section>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-12"><h1>Andy Deng</h1></div>
+      </div>
+      <section id="about">
+        <div class="row">
+          <div class="col-5">
+            <img
+              class="image"
+              src="me and my mom.jpg"
+              alt="picture of me and my mom"
+            />
+          </div>
+          <div class="col-7">
+            <h2 class="head">About <i class="fa-solid fa-address-card"></i></h2>
+            <p style="margin-top: 0px">
+              Andy Deng is a current sophomore at Boston College studying
+              computer science and finance. His hobbies include running,
+              cooking, photography, gaming, and trying out new restaurants!
+            </p>
+            <p>
+              Interests: Web Development, Machine Learning, Cryptography, and
+              Graphics/Visual computing, though currently uncertain of which
+              field to focus on.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div style="text-align: center" class="col-3">
+            <div>
+              <strong
+                >CS Student @ Boston College
+                <i class="fa-solid fa-graduation-cap"></i></strong
+              ><br />
+              denga@bc.edu<br />
+              Walsh 217-B<br />
+              <nav>
+                <ul class="links">
+                  <li>
+                    <a
+                      class="link--animation"
+                      href="https://github.com/1Dengaroo"
+                      target="_blank"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      class="link--animation"
+                      href="https://www.youtube.com/channel/UC4njwDEtqmriXh8sXdOfvTQ"
+                      target="_blank"
+                      >YouTube</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
+      <div class="row">
+        <section id="projects" class="col-8">
+          <h2 class="head">
+            Projects <i class="fa-solid fa-diagram-project"></i>
+          </h2>
+          <ul class="list project--filter">
+            <li><div class="filter--div all">All</div></li>
+            <li><div class="filter--div temporary">Temporary</div></li>
+            <li><div class="filter--div journal">Journal</div></li>
+            <li><div class="filter--div technique">Technique</div></li>
+          </ul>
+          <!--I dont have any real projects yet, but I hope that I will soon be able to will this section with actual work.-->
+          <ul class="list">
+            <li>
+              <a class="link--animation" href="panda.html">Panda Project</a>
+            </li>
+            <li>
+              <a class="link--animation" href="more_me.html">More me</a>
+            </li>
+          </ul>
+        </section>
+        <section id="news" class="col-4">
+          <h2 class="head">News <i class="fa-solid fa-newspaper"></i></h2>
+          <ul class="list">
+            <li>Born<br /><span class="date">July 10, 2002</span></li>
+            <li>
+              Graduated from high school<br /><span class="date"
+                >July 25, 2020</span
+              >
+            </li>
+            <li>
+              First-Day at BC!<br /><span class="date">August 28, 2020</span>
+            </li>
+            <li>
+              Attended Brother's Graduation Ceremony<br /><span class="date"
+                >October 17, 2021</span
+              >
+            </li>
+            <li>
+              Began a course on web application development<br /><span
+                class="date"
+                >January 11, 2021</span
+              >
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
     <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/3b26358845.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
   </body>
 </html>
