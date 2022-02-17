@@ -1,0 +1,59 @@
+{
+  "about": {
+    "name": "Andy Deng",
+    "title": "CS Student @ Boston College",
+    "photo": "assets/me and my mom.jpg"
+  },
+  "news": [
+    {
+      "title": "Born",
+      "date": "July 10, 2002"
+    },
+    {
+      "title": "Graduated from high school",
+      "date": "July 25, 2020"
+    },
+    {
+      "title": "First-Day at BC!",
+      "date": "August 28, 2020"
+    },
+    {
+      "title": "Attended Brother's Graduation Ceremony",
+      "date": "October 17, 2021"
+    },
+    {
+      "title": "Began a course on web application development",
+      "date": "January 11, 2022"
+    }
+  ],
+  "projects": [
+    {
+      "id": "panda",
+      "title": "Panda Project",
+      "authors": "Andy Deng",
+      "teaser": "panda.jpg",
+      "tags": ["all", "temporary"],
+      "materials": [
+        {
+          "label": "link",
+          "path": "panda.html"
+        }
+      ],
+      "description": "This is a placeholder project to fill up some space. I do not have any real projects but I hope to soon so that I will be able to display them here."
+    },
+    {
+      "id": "me",
+      "title": "More Picture of Me",
+      "authors": "Andy Deng",
+      "teaser": "me.jpg",
+      "tags": ["all", "temporary"],
+      "materials": [
+        {
+          "label": "link",
+          "path": "more_me.html"
+        }
+      ],
+      "description": "This is a placeholder project to fill up some space. I do not have any real projects but I hope to soon so that I will be able to display them here."
+    }
+  ]
+}

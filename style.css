@@ -6,6 +6,8 @@
   border: 1px #ccc solid;
 } */
 
+/* ^^^ FOR TESTING PURPOSES ^^^ */
+
 html {
   font-family: 'Open Sans', Times, serif;
   font-size: 18px;
@@ -58,6 +60,10 @@ h1 {
 
   .list {
     padding-left: 0px;
+  }
+
+  .ab {
+    margin-left: 20px;
   }
 }
 
@@ -172,17 +178,17 @@ h1 {
   animation-duration: 2s;
 }
 
-.project--filter {
+.filter--div {
   display: flex;
   justify-content: left;
 }
 
-.project--filter li {
+.filter--div li {
   padding-bottom: 20px;
   padding-right: 10px;
 }
 
-.filter--div {
+.project--filter {
   border-radius: 1rem;
   background: #eeeeee;
   padding: 0.2rem 0.5rem;

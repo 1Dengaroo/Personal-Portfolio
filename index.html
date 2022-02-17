@@ -9,7 +9,7 @@
     <meta property="og:type" content="Personal Portfolio" />
     <meta property="og:image" content="me and my mom.jpg" />
     <meta property="og:url" content="http://127.0.0.1:5500/index.html" />
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:card" content="me and my mom.jpg" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,18 +34,14 @@
     </nav>
     <div class="container">
       <div class="row">
-        <div class="col-12"><h1>Andy Deng</h1></div>
+        <div id="nameid" class="name col-12"></div>
       </div>
       <section id="about">
         <div class="row">
           <div class="col-5">
-            <img
-              class="image"
-              src="me and my mom.jpg"
-              alt="picture of me and my mom"
-            />
+            <img id="imageid" class="image" alt="picture" />
           </div>
-          <div class="col-7">
+          <div class="col-7 ab">
             <h2 class="head">About <i class="fa-solid fa-address-card"></i></h2>
             <p style="margin-top: 0px">
               Andy Deng is a current sophomore at Boston College studying
@@ -62,10 +58,7 @@
         <div class="row">
           <div style="text-align: center" class="col-3">
             <div>
-              <strong
-                >CS Student @ Boston College
-                <i class="fa-solid fa-graduation-cap"></i></strong
-              ><br />
+              <strong id="titleid"></strong><br />
               denga@bc.edu<br />
               Walsh 217-B<br />
               <nav>
@@ -98,11 +91,11 @@
           <h2 class="head">
             Projects <i class="fa-solid fa-diagram-project"></i>
           </h2>
-          <ul class="list project--filter">
-            <li><div class="filter--div all">All</div></li>
-            <li><div class="filter--div temporary">Temporary</div></li>
-            <li><div class="filter--div journal">Journal</div></li>
-            <li><div class="filter--div technique">Technique</div></li>
+          <ul class="list filter--div">
+            <li><div class="project--filter all">All</div></li>
+            <li><div class="project--filter temporary">Temporary</div></li>
+            <li><div class="project--filter journal">Journal</div></li>
+            <li><div class="project--filter technique">Technique</div></li>
           </ul>
           <!--I dont have any real projects yet, but I hope that I will soon be able to will this section with actual work.-->
           <ul class="list">
@@ -110,7 +103,9 @@
               <a class="link--animation" href="panda.html">Panda Project</a>
             </li>
             <li>
-              <a class="link--animation" href="more_me.html">More me</a>
+              <a class="link--animation" href="more_me.html"
+                >More Picture of Me!</a
+              >
             </li>
           </ul>
         </section>
@@ -134,14 +129,14 @@
             <li>
               Began a course on web application development<br /><span
                 class="date"
-                >January 11, 2021</span
+                >January 11, 2022</span
               >
             </li>
           </ul>
         </section>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <script
       src="https://kit.fontawesome.com/3b26358845.js"
       crossorigin="anonymous"
