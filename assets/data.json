@@ -56,7 +56,7 @@
         "project_id": "panda",
         "title": "Panda Project",
         "authors": ["Andy Deng", "Baby Keem", "Po"],
-        "tags": ["all", "temporary"],
+        "tags": ["All", "Temporary", "Journal"],
         "materials": [
           {
             "label": "link",
@@ -69,8 +69,8 @@
       {
         "project_id": "me",
         "title": "More Pictures of Me",
-        "authors": ["Andy Deng", "Kevin Deng", "Mrs. Deng"],
-        "tags": ["all", "temporary"],
+        "authors": ["Andy Deng", "Kevin Deng", "Mrs. Deng", "Mr. Deng"],
+        "tags": ["All", "Temporary", "Technique"],
         "materials": [
           {
             "label": "link",

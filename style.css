@@ -174,9 +174,6 @@ h1 {
 
 .head {
   display: inline-block;
-
-  animation: bounce;
-  animation-duration: 2s;
 }
 
 .filter--div {
@@ -195,6 +192,10 @@ h1 {
   padding: 0.2rem 0.5rem;
   margin: 0.2rem;
   cursor: pointer;
+}
+
+.project--filer--active {
+  border: 1px solid #ccc;
 }
 
 .all {
@@ -223,4 +224,12 @@ h1 {
 
 .list-element-div {
   margin-bottom: 10px;
+}
+
+.search input {
+  width: 100%;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border-radius: 1rem;
+  border: 1px solid black;
 }
