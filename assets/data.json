@@ -6,8 +6,8 @@
     "photo": "assets/me and my mom.jpg",
     "email": "denga@bc.edu",
     "address": "Walsh 217-B",
-    "description": "Andy Deng is a current sophomore at Boston College studying computer science and finance. His hobbies include running, cooking, photography, gaming, and trying out new restaurants!",
-    "interests_desc": "Interests: Web Development, Machine Learning, Cryptography, and Graphics/Visual computing, though currently uncertain of which field to focus on.",
+    "description": "Andy Deng is a current junior at Boston College studying computer science and finance. His hobbies include running, cooking, photography, gaming, and trying out new restaurants!",
+    "interests_desc": "Interests: Web Development, Machine Learning, and Graphics/Visual computing, though currently uncertain of which field to focus on.",
     "links": [
       {
         "title": "github",
@@ -43,7 +43,7 @@
         "date": "October 17, 2021"
       },
       {
-        "title": "Began a course on web application development",
+        "title": "Began learning web app development!",
         "date": "January 11, 2022"
       }
     ]
@@ -55,7 +55,7 @@
       {
         "project_id": "panda",
         "title": "Panda Project",
-        "authors": ["Andy Deng", "Baby Keem", "Po"],
+        "authors": ["Andy Deng", "Panda Bear", "Po"],
         "tags": ["All", "Temporary", "Journal"],
         "materials": [
           {
@@ -64,7 +64,7 @@
           }
         ],
         "sections": ["panda", "description", "back"],
-        "description": "This is a placeholder project to fill up some space. I do not have any real projects yet, but I hope to soon so that I will be able to display them here."
+        "description": "This is a placeholder project to fill up some space. I do not have any real projects yet, but I hope to soon so that I will be able to display them here!"
       },
       {
         "project_id": "me",
@@ -78,7 +78,7 @@
           }
         ],
         "sections": ["me", "description", "back"],
-        "description": "This is a placeholder project to fill up some space. I do not have any real projects yet, but I hope to soon so that I will be able to display them here."
+        "description": "This is a placeholder project to fill up some space. I do not have any real projects yet, but I hope to soon so that I will be able to display them here!"
       }
     ]
   }
