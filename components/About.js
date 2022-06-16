@@ -7,7 +7,7 @@ export default function renderAbout(about) {
       <img id="imageid" class="image" alt="picture" src="${about.photo}" />
     </div>
     <div class="col-7 ab">
-      <h2 class="head">About <i class="fa-solid fa-address-card"></i></h2>
+      <h2 class="head">About Me <i class="fa-solid fa-address-card"></i></h2>
       <p style="margin-top: 0px">${about.description}</p>
       <p>${about.interests_desc}</p>
     </div></div>

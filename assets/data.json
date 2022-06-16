@@ -5,9 +5,9 @@
     "title": "CS Student @ Boston College",
     "photo": "assets/me and my mom.jpg",
     "email": "denga@bc.edu",
-    "address": "Walsh 217-B",
-    "description": "Andy Deng is a current junior at Boston College studying computer science and finance. His hobbies include running, cooking, photography, gaming, and trying out new restaurants!",
-    "interests_desc": "Interests: Web Development, Machine Learning, and Graphics/Visual computing, though currently uncertain of which field to focus on.",
+    "address": "Hillsborough, NJ",
+    "description": "Hello! I am Andy Deng, and I am a current junior studying Computer Science and Finance at Boston College. My  hobbies include running, coding,  photography, and gaming! I hope to become a Software Engineer specializing in front-end development.",
+    "interests_desc": "Interests: Web Development, Machine Learning, Software Engineering, Graphics/Visual computing",
     "links": [
       {
         "title": "github",
@@ -27,58 +27,72 @@
     "id": "News",
     "events": [
       {
-        "title": "Born",
-        "date": "July 10, 2002"
+        "title": "Vacation to Italy",
+        "date": "June 15, 2017"
       },
       {
-        "title": "Graduated from high school",
+        "title": "Service Trip in Belgium",
+        "date": "July 18, 2018"
+      },
+      {
+        "title": "High School Graduation",
         "date": "July 25, 2020"
       },
       {
-        "title": "First-Day at BC!",
+        "title": "Attending Boston College",
         "date": "August 28, 2020"
       },
       {
-        "title": "Attended Brother's Graduation Ceremony",
-        "date": "October 17, 2021"
-      },
-      {
-        "title": "Began learning web app development!",
-        "date": "January 11, 2022"
+        "title": "Working for Boston College IT Services",
+        "date": "August 28, 2022"
       }
     ]
   },
   "projects": {
     "id": "Projects",
-    "tags": ["All", "Temporary", "Journal", "Technique"],
+    "tags": ["All", "Temporary", "Journal", "Website"],
     "projects": [
       {
-        "project_id": "panda",
-        "title": "Panda Project",
-        "authors": ["Andy Deng", "Panda Bear", "Po"],
-        "tags": ["All", "Temporary", "Journal"],
+        "project_id": "portfolio",
+        "title": "Personal Portfolio Website",
+        "authors": ["Andy Deng"],
+        "tags": ["All", "Website", "Temporary"],
         "materials": [
           {
             "label": "link",
-            "path": "index.html?page=panda"
+            "path": ""
           }
         ],
-        "sections": ["panda", "description", "back"],
-        "description": "This is a placeholder project to fill up some space. I do not have any real projects yet, but I hope to soon so that I will be able to display them here!"
+        "sections": [],
+        "description": "This is my personal portfolio website that I created using pure JavaScript, HTML, and CSS. The website itself is separated into different components for readability purposes as well as to mimic frameworks such as React and Angular. It adapts to different screen sizes and uses icons from Font Awesome. "
       },
       {
-        "project_id": "me",
-        "title": "More Pictures of Me",
-        "authors": ["Andy Deng", "Kevin Deng", "Mrs. Deng", "Mr. Deng"],
-        "tags": ["All", "Temporary", "Technique"],
+        "project_id": "instagram",
+        "title": "Instagram Copy",
+        "authors": ["Andy Deng"],
+        "tags": ["All", "Website"],
         "materials": [
           {
             "label": "link",
-            "path": "index.html?page=me"
+            "path": "https://1dengaroo.github.io/instagram-web/"
           }
         ],
-        "sections": ["me", "description", "back"],
-        "description": "This is a placeholder project to fill up some space. I do not have any real projects yet, but I hope to soon so that I will be able to display them here!"
+        "sections": [],
+        "description": "This project is a partial clone of instagram that I created using React. It includes a home page, a profile page, and a way to upload new posts. It utilizes React Router to support various navigations in the app and saves user data into a remote database using Firestore."
+      },
+      {
+        "project_id": "recursion",
+        "title": "Recursion Teaching Tool",
+        "authors": ["Brian Trinh", "Divya Kumar", "Andy Deng"],
+        "tags": ["All", "Website"],
+        "materials": [
+          {
+            "label": "link",
+            "path": "https://glimmer-discovered-prosecution.glitch.me"
+          }
+        ],
+        "sections": [],
+        "description": "After interviewing numerous CS students on which topics they have the most difficulty understanding, we noticed that an overwhelming majority of them listed recursion as the most challenging topic to initially understand. Our website is designed around the goal of having visual tools, practice problems, and other resources available all in one place to aid course material. It designed around user testing user testing and feedback in an attempt to optimize user experience."
       }
     ]
   }

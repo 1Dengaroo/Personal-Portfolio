@@ -99,6 +99,7 @@ h1 {
   left: 0;
   margin: 0px;
   z-index: 1;
+  border-bottom: 1px solid #ddd;
 }
 
 .sections li {
@@ -199,8 +200,10 @@ h1 {
 }
 
 .all {
-  background: lightgoldenrodyellow;
-  color: darkgoldenrod;
+  background: lightcyan;
+  color: darkcyan;
+  /* background: lightgoldenrodyellow;
+  color: darkgoldenrod; */
 }
 
 .temporary {
@@ -209,13 +212,17 @@ h1 {
 }
 
 .journal {
-  background: lightgreen;
-  color: darkgreen;
+  background: lightcyan;
+  color: darkcyan;
+  /* background: lightgreen;
+  color: darkgreen; */
 }
 
-.technique {
-  background: lightpink;
-  color: darkred;
+.website {
+  background: lightcyan;
+  color: darkcyan;
+  /* background: lightpink;
+  color: darkred; */
 }
 
 .back {
@@ -232,4 +239,8 @@ h1 {
   margin-bottom: 10px;
   border-radius: 1rem;
   border: 1px solid black;
+}
+
+#projects {
+  margin-right: 20px;
 }
