@@ -244,3 +244,18 @@ h1 {
 #projects {
   margin-right: 20px;
 }
+
+.container-exp {
+  border: 1px solid black;
+  margin-bottom: 10px;
+  padding: 7px 7px;
+}
+
+.date-exp {
+  font-size: 13px;
+  color: #333;
+}
+
+.desc-exp {
+  margin-top: 5px;
+}

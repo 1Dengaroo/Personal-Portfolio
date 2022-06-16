@@ -4,6 +4,7 @@ import About from './About.js';
 import Projects, { handleProjectFilter } from './Projects.js';
 import News, { handleNewsFilter } from './News.js';
 import Navbar from './Navbar.js';
+import Experience from './Experience.js';
 
 export default function renderMainPage(data) {
   Navbar('main', Object.keys(data));
@@ -13,7 +14,8 @@ export default function renderMainPage(data) {
     <div class="row">
       ${Projects(data.projects)}
       ${News(data.news)}
-    </div>`;
+    </div>
+    <div>${Experience(data.experience)}</div>`;
 
   // Interactions
   handleProjectFilter(data.projects.projects);

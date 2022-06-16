@@ -92,7 +92,22 @@
           }
         ],
         "sections": [],
-        "description": "After interviewing numerous CS students on which topics they have the most difficulty understanding, we noticed that an overwhelming majority of them listed recursion as the most challenging topic to initially understand. Our website is designed around the goal of having visual tools, practice problems, and other resources available all in one place to aid course material. It designed around user testing user testing and feedback in an attempt to optimize user experience."
+        "description": "After interviewing numerous CS students, we noticed that an overwhelming majority of them listed recursion as the most challenging topic to understand. Our website is designed around the goal of having visual tools, practice problems, and other resources available all in one place to aid course material. It designed around user testing and feedback to optimize user experience."
+      }
+    ]
+  },
+  "experience": {
+    "id": "experience",
+    "events": [
+      {
+        "title": "SAMPLE TITLE",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla ut morbi tincidunt augue interdum velit. Euismod elementum nisi quis eleifend quam adipiscing. Libero justo laoreet sit amet cursus sit amet dictum. Tellus orci ac auctor augue mauris augue. Est ante in nibh mauris cursus mattis molestie a iaculis. Iaculis nunc sed augue lacus viverra. Nunc consequat interdum varius sit amet mattis vulputate enim. Ac ut consequat semper viverra nam libero justo laoreet sit. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Commodo elit at imperdiet dui. Ac turpis egestas maecenas pharetra convallis. Lectus urna duis convallis convallis tellus id interdum. Sollicitudin tempor id eu nisl nunc mi. Risus commodo viverra maecenas accumsan lacus. Dignissim cras tincidunt lobortis feugiat. Nam aliquam sem et tortor consequat id porta nibh. Sit amet venenatis urna cursus eget nunc.",
+        "date": "August 1, 2022"
+      },
+      {
+        "title": "SAMPLE TITLE",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla ut morbi tincidunt augue interdum velit. Euismod elementum nisi quis eleifend quam adipiscing. Libero justo laoreet sit amet cursus sit amet dictum. Tellus orci ac auctor augue mauris augue. Est ante in nibh mauris cursus mattis molestie a iaculis. Iaculis nunc sed augue lacus viverra. Nunc consequat interdum varius sit amet mattis vulputate enim. Ac ut consequat semper viverra nam libero justo laoreet sit. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. ",
+        "date": "July 10, 2099"
       }
     ]
   }
