@@ -6,7 +6,7 @@
     "photo": "assets/me and my mom.jpg",
     "email": "denga@bc.edu",
     "address": "Hillsborough, NJ",
-    "description": "Hello! I am Andy Deng, and I am a current junior studying Computer Science and Finance at Boston College. I have a passion for building meaningful  software in a supportive and collaborative environment! I have experience in many stages of software development including both front-end and back-end. I am proficient in languages such as JavaScript, Java, Python and have quality experience working with OCaml and C++. I hope to never stop learning and use my skills and experience to contribute to something that has true purpose and meaning!",
+    "description": "Hello! I am Andy Deng, and I am a current junior studying Computer Science and Finance at Boston College. I have a passion for building meaningful  software in a supportive and collaborative environment! I have experience in many stages of software development including both front-end and back-end. I am proficient in languages such as JavaScript, Java, Python and have quality experience working with OCaml and C++. I hope to never stop learning and use my skills and experience to contribute to something that has true meaning.",
     "interests_desc": "Interests: Web Development, Machine Learning, Software Engineering, Graphics/Visual computing",
     "links": [
       {
@@ -44,7 +44,7 @@
       },
       {
         "title": "Working for Boston College IT Services",
-        "date": "August 28, 2022"
+        "date": "September 1, 2022"
       }
     ]
   },
@@ -52,20 +52,6 @@
     "id": "Projects",
     "tags": ["All", "Temporary", "Journal", "Website"],
     "projects": [
-      {
-        "project_id": "portfolio",
-        "title": "Personal Portfolio Website",
-        "authors": ["Andy Deng"],
-        "tags": ["All", "Website", "Temporary"],
-        "materials": [
-          {
-            "label": "link",
-            "path": ""
-          }
-        ],
-        "sections": [],
-        "description": "This is my personal portfolio website that I created using pure JavaScript, HTML, and CSS. The website itself is separated into different components for readability purposes as well as to mimic frameworks such as React and Angular. It adapts to different screen sizes and uses icons from Font Awesome. "
-      },
       {
         "project_id": "instagram",
         "title": "Instagram Copy",
@@ -100,14 +86,9 @@
     "id": "experience",
     "events": [
       {
-        "title": "SAMPLE TITLE",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla ut morbi tincidunt augue interdum velit. Euismod elementum nisi quis eleifend quam adipiscing. Libero justo laoreet sit amet cursus sit amet dictum. Tellus orci ac auctor augue mauris augue. Est ante in nibh mauris cursus mattis molestie a iaculis. Iaculis nunc sed augue lacus viverra. Nunc consequat interdum varius sit amet mattis vulputate enim. Ac ut consequat semper viverra nam libero justo laoreet sit. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. Commodo elit at imperdiet dui. Ac turpis egestas maecenas pharetra convallis. Lectus urna duis convallis convallis tellus id interdum. Sollicitudin tempor id eu nisl nunc mi. Risus commodo viverra maecenas accumsan lacus. Dignissim cras tincidunt lobortis feugiat. Nam aliquam sem et tortor consequat id porta nibh. Sit amet venenatis urna cursus eget nunc.",
-        "date": "August 1, 2022"
-      },
-      {
-        "title": "SAMPLE TITLE",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fringilla ut morbi tincidunt augue interdum velit. Euismod elementum nisi quis eleifend quam adipiscing. Libero justo laoreet sit amet cursus sit amet dictum. Tellus orci ac auctor augue mauris augue. Est ante in nibh mauris cursus mattis molestie a iaculis. Iaculis nunc sed augue lacus viverra. Nunc consequat interdum varius sit amet mattis vulputate enim. Ac ut consequat semper viverra nam libero justo laoreet sit. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit. ",
-        "date": "July 10, 2099"
+        "title": "IT Help Desk",
+        "description": "Worked at the IT Help Desk for Boston College IT Services. Helped students and faculty with printing and internet issues and managed printers across campus.",
+        "date": "September 1, 2022"
       }
     ]
   }
