@@ -3,7 +3,7 @@
     "id": "About",
     "name": "Andy Deng",
     "title": "CS Student @ Boston College",
-    "photo": "assets/me and my mom.jpg",
+    "photo": "assets/pebble3.jpg",
     "email": "denga@bc.edu",
     "address": "Hillsborough, NJ",
     "description": "Hello! I am Andy Deng, and I am a current junior studying Computer Science and Finance at Boston College. I have a passion for building meaningful  software in a supportive and collaborative environment! I have experience in many stages of software development including both front-end and back-end. I am proficient in languages such as JavaScript, Java, Python and have quality experience working with OCaml and C++. I hope to never stop learning and use my skills and experience to contribute to something that has true meaning.",
@@ -16,9 +16,9 @@
         "icon_class": "<i class='fab fa-github'>"
       },
       {
-        "title": "youtube",
-        "display": "YouTube",
-        "link": "https://www.youtube.com/channel/UC4njwDEtqmriXh8sXdOfvTQ",
+        "title": "resume",
+        "display": "Resume",
+        "link": "assets/resume.pdf",
         "icon_class": ""
       }
     ]
@@ -85,6 +85,11 @@
   "experience": {
     "id": "experience",
     "events": [
+      {
+        "title": "RL Coach for Vanta Leagues",
+        "description": "Coached 6 students ages 9-14 using Google Classroom and managed 2 weekly coaching sessions and 1 weekly game day. Prioritized a non-toxic, supportive, and safe learning environment.",
+        "date": "January 31,2021 - May 1, 2021"
+      },
       {
         "title": "IT Help Desk",
         "description": "Worked at the IT Help Desk for Boston College IT Services. Helped students and faculty with printing and internet issues and managed printers across campus.",
